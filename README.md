@@ -1,14 +1,14 @@
-# foodie<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-body {font-family: "Times New Roman", Georgia, Serif;}
+<body>
+<style>{font-family: "Times New Roman", Georgia, Serif;}
 h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display";
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 </style>
 <body>
@@ -19,8 +19,8 @@ h1,h2,h3,h4,h5,h6 {
     <a href="#home" class="w3-bar-item w3-button">10ร้านห้ามพลาดในหาดใหญ่</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">HOME</a>
-      <a href="#menu" class="w3-bar-item w3-button">FOOD</a>
+      <a href="#HOME" class="w3-bar-item w3-button">HOME</a>
+      <a href="#FOOD" class="w3-bar-item w3-button">FOOD</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
   </div>
@@ -28,9 +28,9 @@ h1,h2,h3,h4,h5,h6 {
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <img class="w3-image" src="/images/tw3.jpg" alt="ALL YOU NEED" width="1600" height="800">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">Le Catering</h1>
+    <h1 class="w3-xxlarge">ขนมจีนบ้านทองวงค์</h1>
   </div>
 </header>
 
@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
   </div>
 
   <hr>
-<!-- End page content -->
+ <!-- End page content -->
 </div>
 
 <!-- Footer -->
