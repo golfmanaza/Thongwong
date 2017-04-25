@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
@@ -16,20 +15,21 @@ h1,h2,h3,h4,h5,h6 {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">10ร้านห้ามพลาดในหาดใหญ่</a>
+    <a href="#home" class="w3-bar-item w3-button w3-large">10ร้านห้ามพลาดในหาดใหญ่</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">HOME</a>
       <a href="#menu" class="w3-bar-item w3-button">FOOD</a>
-       </div>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="thongwong1.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <img class="w3-image" src="thongwong1.jpg"  alt="ขนมจีนบ้านทองวงค์" width="1600" height="800">
   <div class="w3-display-middle w3-padding-large w3-black">
-    <h1 class="w3-xxlarge">ขนมจีนบ้านทองวงค์</h1>
+    <h1 class="w3-xxlarge w3-animate-left w3-card-4">"ขนมจีนบ้านทองวงค์" </h1>
   </div>
 </header>
 
@@ -39,16 +39,16 @@ h1,h2,h3,h4,h5,h6 {
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="thongwong2.jpg" class="w3-round w3-image w3-opacity-min" alt="หน้าร้าน" width="600" height="750">
+     <img src="thongwong2.jpg" class="w3-round w3-image w3-hover-opacity" alt="ขนมจีน" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">ขนมจีนทองวงค์</h1><hr>
+      <h1 class="w3-center w3-animate-left w3-card-4 w3-border w3-hover-red ">ขนมจีนบ้านทองวงค์</h1><hr>
       <h5 class="w3-center">ขนมจีนขึ้นชื่อในหาดใหญ่</h5>
       <p class="w3-large">อิ่ม คุ้ม ครบ ไม่เกินร้อย ขนมจีนเส้นสด “ร้านขนมจีนบ้านทองวงศ์” หาดใหญ่ อิ่มคุ้ม กับร้าน “ขนมจีนบ้านทองวงศ์” เมืองหาดใหญ่ ขนมจีนเส้นสด ครบครันทั้งเครื่องเคียง ไก่ทอด ขนมหวาน และข้าวคลุกกะปิ ในราคาเบา ๆ แบงค์ร้อยเอาอยู่</p>
-      <span class="w3-tag w3-red">ต้องลอง !</span>
+      <span class="w3-tag w3-red">ต้องลอง !</span></p>
       
-    </div>
+	  </div>
   </div>
 
   <hr>
@@ -56,7 +56,7 @@ h1,h2,h3,h4,h5,h6 {
   <!-- Menu Section -->
   <div class="w3-row w3-padding-64" id="menu">
     <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">ข้อมูลร้าน</h1><br>
+      <h1 class="w3-center w3-card-4 w3-border w3-hover-red">ข้อมูลร้าน</h1><br>
       <h4>เวลาเปิดร้าน</h4>
       <p class="w3-text-grey">จันทร์ - เสาร์: 08:30 - 15:00</p><br>
 
@@ -77,21 +77,83 @@ h1,h2,h3,h4,h5,h6 {
     </div>
 
     <div class="w3-col l6 w3-padding-large">
-      <img src="thongwong3.jpg" class="w3-round w3-image w3-opacity-min" alt="ขนมจีน" width="500" height="750">
+      <img src="thongwong3.jpg" class="w3-round w3-image w3-hover-opacity" alt="ขนมจีน" width="500" height="750">
     </div>
   </div>
 
   <hr>
 <!-- End page content -->
-<div class="w3-row-padding">
-  <div class="w3-col s4"><img src="img_lights.jpg"></div>
-  <div class="w3-col s4"><img src="img_nature.jpg"></div>
-  <div class="w3-col s4"><img src="img_fjords.jpg"></div>
+
+<div class="w3-container w3-center  w3-bar w3-card-4 w3-border  w3-hover-red">
+  <h2>รูปภาพเพิ่มเติม</h2>
+  <p>ชมบรรยากาศและอาหาร</p>
 </div>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="thongwong2.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    ขนมจีนน้ำยา
+  </div>
+</div>
+<div class="w3-display-container mySlides">
+  <img src="thongwong4.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    มีน้ำแกงให้เลือกมากมาย
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="thongwong5.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    เครื่องเคียง
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="thongwong6.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    ข้าวคลุกกะปิ
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="thongwong7.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    ไก่ทอด
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
-  <p>contact us<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>ติดต่อพวกเรา<a href="https://www.facebook.com/timargolf" title="W3.CSS" target="_blank" class="w3-hover-text-green">Facebook</a></p>
 </footer>
 
 </body>
+</html>
