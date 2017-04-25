@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="thongwong2.jpg" class="w3-round w3-image w3-hover-opacity" alt="ขนมจีน" width="600" height="750">
+     <img src="thongwong8.jpg" class="w3-round w3-image w3-hover-opacity" alt="ขนมจีน" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
@@ -112,9 +112,9 @@ h1,h2,h3,h4,h5,h6 {
 </div>
 
 <div class="w3-display-container mySlides">
-  <img src="thongwong6.jpg" style="width:100%">
+  <img src="thongwong8.jpg" style="width:100%">
   <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-    ข้าวคลุกกะปิ
+    หน้าร้าน
   </div>
 </div>
 
