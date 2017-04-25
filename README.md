@@ -13,8 +13,8 @@ h1,h2,h3,h4,h5,h6 {
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
+<div class="w3-top w3-middle">
+  <div class="w3-bar w3-white w3-padding w3-card-2 " style="letter-spacing:4px;">
     <a href="#home" class="w3-bar-item w3-button w3-large">10ร้านห้ามพลาดในหาดใหญ่</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
