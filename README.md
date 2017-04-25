@@ -21,8 +21,7 @@ h1,h2,h3,h4,h5,h6 {
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">HOME</a>
       <a href="#menu" class="w3-bar-item w3-button">FOOD</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
+       </div>
   </div>
 </div>
 
@@ -47,8 +46,8 @@ h1,h2,h3,h4,h5,h6 {
       <h1 class="w3-center">ขนมจีนทองวงค์</h1><hr>
       <h5 class="w3-center">ขนมจีนขึ้นชื่อในหาดใหญ่</h5>
       <p class="w3-large">อิ่ม คุ้ม ครบ ไม่เกินร้อย ขนมจีนเส้นสด “ร้านขนมจีนบ้านทองวงศ์” หาดใหญ่ อิ่มคุ้ม กับร้าน “ขนมจีนบ้านทองวงศ์” เมืองหาดใหญ่ ขนมจีนเส้นสด ครบครันทั้งเครื่องเคียง ไก่ทอด ขนมหวาน และข้าวคลุกกะปิ ในราคาเบา ๆ แบงค์ร้อยเอาอยู่</p>
-      <span class="w3-tag w3-red">ต้องลอง !</span></p>
-      <p class="w3-large w3-text-grey w3-hide-medium">ขนมจีนบ้านทองวงค์.</p>
+      <span class="w3-tag w3-red">ต้องลอง !</span>
+      
     </div>
   </div>
 
