@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-<style>{font-family: "Times New Roman", Georgia, Serif;}
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
 h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display";
-    letter-spacing: 4px;
+    letter-spacing: 5px;
 }
 </style>
 <body>
@@ -19,8 +19,8 @@ h1,h2,h3,h4,h5,h6 {
     <a href="#home" class="w3-bar-item w3-button">10ร้านห้ามพลาดในหาดใหญ่</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#HOME" class="w3-bar-item w3-button">HOME</a>
-      <a href="#FOOD" class="w3-bar-item w3-button">FOOD</a>
+      <a href="#about" class="w3-bar-item w3-button">HOME</a>
+      <a href="#menu" class="w3-bar-item w3-button">FOOD</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
   </div>
@@ -28,8 +28,8 @@ h1,h2,h3,h4,h5,h6 {
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="/images/tw3.jpg" alt="ALL YOU NEED" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+  <img class="w3-image" src="thongwong1.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-middle w3-padding-large w3-black">
     <h1 class="w3-xxlarge">ขนมจีนบ้านทองวงค์</h1>
   </div>
 </header>
@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6 {
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="/images/tw2.jpg" class="w3-round w3-image w3-opacity-min" alt="หน้าร้าน" width="600" height="750">
+     <img src="thongwong2.jpg" class="w3-round w3-image w3-opacity-min" alt="หน้าร้าน" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
@@ -78,12 +78,16 @@ h1,h2,h3,h4,h5,h6 {
     </div>
 
     <div class="w3-col l6 w3-padding-large">
-      <img src="/images/tw1.jpg" class="w3-round w3-image w3-opacity-min" alt="ขนมจีน" width="500" height="750">
+      <img src="thongwong3.jpg" class="w3-round w3-image w3-opacity-min" alt="ขนมจีน" width="500" height="750">
     </div>
   </div>
 
   <hr>
- <!-- End page content -->
+<!-- End page content -->
+<div class="w3-row-padding">
+  <div class="w3-col s4"><img src="img_lights.jpg"></div>
+  <div class="w3-col s4"><img src="img_nature.jpg"></div>
+  <div class="w3-col s4"><img src="img_fjords.jpg"></div>
 </div>
 
 <!-- Footer -->
@@ -92,4 +96,3 @@ h1,h2,h3,h4,h5,h6 {
 </footer>
 
 </body>
-</html>
