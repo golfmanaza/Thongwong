@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6 {
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
   <img class="w3-image" src="thongwong1.jpg"  alt="ขนมจีนบ้านทองวงค์" width="1600" height="800">
   <div class="w3-display-middle w3-padding-large w3-black">
-    <h1 class="w3-xxlarge w3-animate-left w3-card-4">"ขนมจีนบ้านทองวงค์" </h1>
+    <h1 class="w3-xxxlarge w3-animate-left w3-card-4">"ขนมจีนบ้านทองวงค์" </h1>
   </div>
 </header>
 
