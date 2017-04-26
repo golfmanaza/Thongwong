@@ -13,20 +13,21 @@ h1,h2,h3,h4,h5,h6 {
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button w3-xlarge">10ร้านห้ามพลาดในหาดใหญ่</a>
-     <div class="w3-right w3-hover-green">
-      <a href="#about" class="w3-bar-item w3-button">HOME</a>
-      <a href="#menu" class="w3-bar-item w3-button">FOOD</a>
-      
+<div class="w3-top ">
+  <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:3px;">
+    <a href="#home" class="w3-bar-item w3-button w3-xlarge w3-border w3-card-4 w3-hover-red">10ร้านห้ามพลาดในหาดใหญ่</a>
+  
+<div class="w3-right">
+      <a href="#about" class="w3-bar-item w3-button w3-card-4 w3-border w3-hover-orange">ร้าน</a>
+      <a href="#menu" class="w3-bar-item w3-button w3-card-4 w3-border w3-hover-green">ข้อมูลร้าน</a>
+
     </div>
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="thongwong1.jpg"  alt="ขนมจีนบ้านทองวงค์" width="1600" height="800">
+  <img class="w3-image" src="thongwong1.jpg"  alt="ขนมจีนบ้านทองวงศ์" width="1600" height="800">
   <div class="w3-display-middle w3-padding-large w3-black">
     <h1 class="w3-xxlarge w3-card-4">"ขนมจีนบ้านทองวงศ์" </h1>
   </div>
@@ -41,7 +42,7 @@ h1,h2,h3,h4,h5,h6 {
      <img src="thongwong2.jpg" class="w3-round w3-image w3-hover-opacity" alt="ขนมจีน" width="600" height="750">
     </div>
 
-    <div class="w3-col m6 w3-padding-large">
+    <div class="w3-col m6 w3-padding-large w3-card-4">
       <h1 class="w3-center w3-animate-left w3-card-4 w3-border w3-hover-red ">ขนมจีนบ้านทองวงศ์</h1><hr>
       <h5 class="w3-center">ขนมจีนขึ้นชื่อในหาดใหญ่</h5>
       <p class="w3-large">อิ่ม คุ้ม ครบ ไม่เกินร้อย ขนมจีนเส้นสด “ร้านขนมจีนบ้านทองวงศ์” หาดใหญ่ อิ่มคุ้ม กับร้าน “ขนมจีนบ้านทองวงศ์” เมืองหาดใหญ่ ขนมจีนเส้นสด ครบครันทั้งเครื่องเคียง ไก่ทอด ขนมหวาน และข้าวคลุกกะปิ ในราคาเบา ๆ แบงค์ร้อยเอาอยู่</p>
@@ -53,8 +54,8 @@ h1,h2,h3,h4,h5,h6 {
   <hr>
 
   <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
+  <div class="w3-row w3-padding-64 w3-card-4" id="menu">
+    <div class="w3-col l6 w3-padding-large w3-text-green">
       <h1 class="w3-center w3-card-4 w3-border w3-hover-red">ข้อมูลร้าน</h1><br>
       <h4>เวลาเปิดร้าน</h4>
       <p class="w3-text-grey">จันทร์ - เสาร์: 08:30 - 15:00</p><br>
@@ -88,39 +89,18 @@ h1,h2,h3,h4,h5,h6 {
   <p>ชมบรรยากาศและอาหาร</p>
 </div>
 
-<div class="w3-content w3-display-container">
+<div class="w3-content w3-display-container ">
 
-<div class="w3-display-container mySlides">
-  <img src="thongwong2.jpg" style="width:100%">
-  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-    ขนมจีนน้ำยา
+<div class="w3-display-container mySlides"> 
+  <img src="all1.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 ">
   </div>
+  
 </div>
 <div class="w3-display-container mySlides">
-  <img src="thongwong4.jpg" style="width:100%">
-  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-    มีน้ำแกงให้เลือกมากมาย
-  </div>
-</div>
+  <img src="all2.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 ">
 
-<div class="w3-display-container mySlides">
-  <img src="thongwong5.jpg" style="width:100%">
-  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-    เครื่องเคียง
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="thongwong8.jpg" style="width:100%">
-  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-    หน้าร้าน
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="thongwong7.jpg" style="width:100%">
-  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-    ไก่ทอด
   </div>
 </div>
 
@@ -152,5 +132,3 @@ function showDivs(n) {
 <footer class="w3-center w3-light-grey w3-padding-32">
   <p>ติดต่อพวกเรา<a href="https://www.facebook.com/timargolf" title="W3.CSS" target="_blank" class="w3-hover-text-green">Facebook</a></p>
 </footer>
-
-
