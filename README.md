@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6 {
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center w3-animate-left w3-card-4 w3-border w3-hover-red ">ขนมจีนบ้านทองวศ์</h1><hr>
+      <h1 class="w3-center w3-animate-left w3-card-4 w3-border w3-hover-red ">ขนมจีนบ้านทองวงศ์</h1><hr>
       <h5 class="w3-center">ขนมจีนขึ้นชื่อในหาดใหญ่</h5>
       <p class="w3-large">อิ่ม คุ้ม ครบ ไม่เกินร้อย ขนมจีนเส้นสด “ร้านขนมจีนบ้านทองวงศ์” หาดใหญ่ อิ่มคุ้ม กับร้าน “ขนมจีนบ้านทองวงศ์” เมืองหาดใหญ่ ขนมจีนเส้นสด ครบครันทั้งเครื่องเคียง ไก่ทอด ขนมหวาน และข้าวคลุกกะปิ ในราคาเบา ๆ แบงค์ร้อยเอาอยู่</p>
       <span class="w3-tag w3-red">ต้องลอง !</span>
