@@ -88,7 +88,7 @@ h1,h2,h3,h4,h5,h6 {
   <p>ชมบรรยากาศและอาหาร</p>
 </div>
 
-<div class="w3-content w3-display-container ">
+<div class="w3-content w3-display-container" style="max-width:500px;min-width:500px letter-spacing:3px;">
 
 <div class="w3-display-container mySlides"> 
   <img src="all1.jpg" style="width:100%">
