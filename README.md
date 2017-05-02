@@ -102,13 +102,6 @@ h1,h2,h3,h4,h5,h6 {
 
   </div>
 </div>
-<div class="w3-display-container mySlides">
-  <img src="all3jpg" style="width:100%">
-  <div class="w3-display-middle w3-large w3-container w3-padding-16 ">
-
-  </div>
-</div>
-</div>
 
 <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
