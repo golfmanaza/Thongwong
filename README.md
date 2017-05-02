@@ -108,6 +108,7 @@ h1,h2,h3,h4,h5,h6 {
 
   </div>
 </div>
+</div>
 
 <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
